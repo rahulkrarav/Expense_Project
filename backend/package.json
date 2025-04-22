@@ -1,0 +1,27 @@
+
+{
+  "name": "expense-management-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Rahul Kumar",
+  "license": "MIT",
+  "description": "Expense Tracker API Backend",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
